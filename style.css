@@ -8,14 +8,17 @@ body {
   text-align: center;
   background: black;
   color: #fff;
-  width: 400px;
-
+  width: 380px;
+  padding-top: 10px;
   font-family: serif;
+  font-style: italic;
   margin: 10px;
+  display: flex;
+  display: flex;
 }
-.col-3 {
-  width: 400px;
+.col-3 h5 {
   text-align: center;
+  margin-left: 50px;
 }
 .col-2 {
   background: #000;
@@ -25,8 +28,11 @@ body {
   text-align: center;
   border: 4px solid red;
   border-radius: 25px;
-  margin-left: -100px;
+  margin-left: -80px;
+  display: flex;
+
   margin-top: 30px;
+  padding-top: 10px;
 }
 
 .col-4 {
@@ -58,6 +64,7 @@ body {
   margin-top: 75px;
   margin-left: 45px;
   background-color: rgb(253, 233, 209);
+  width: 400px;
 }
 .col-5 h2 {
   font-family: serif;
@@ -79,7 +86,7 @@ body {
   width: 400px;
   text-align: center;
   border-radius: 25px;
-  margin-left: 25%;
+  margin-left: 15%;
   margin-top: 50px;
 }
 .menu h1 {
@@ -97,7 +104,6 @@ body {
 .col h1 {
   font-family: serif;
   margin-top: 5px;
-
   font-weight: bold;
 }
 .col hr {
@@ -105,4 +111,8 @@ body {
 }
 .row-2 {
   margin-top: 100px;
+}
+li {
+  font-family: serif;
+  font-weight: 700;
 }
